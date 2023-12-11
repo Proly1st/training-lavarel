@@ -1,0 +1,92 @@
+/* Reset CSS */
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* 
+    1. vị trí
+    2. kích thước
+    3. màu sắc
+    4. kiểu dáng
+
+*/
+
+#main {
+
+}
+
+#header {
+    height: 66px;
+    background-color: greenyellow;
+}
+
+#sidebar {
+    width: 70px;
+    height: 460px;
+    float: left;
+    background-color: aqua;
+    
+}
+
+#right {
+    width: 70px;
+    height: 450px;
+    float: right;
+    background-color: blueviolet;
+}
+
+#container {
+  
+    width: 1130px;
+    height: 2900px;
+ 
+    margin-left: auto;
+    margin-right: auto;;
+    padding: 30px 0;
+}
+
+#profile {
+    width: 1130px;
+    height: 436px;
+    background-color:yellow;
+   margin-bottom: 30px;
+}
+
+#profile img{
+    width: 1130px;
+    height: 370px;
+   
+}
+
+#content{
+
+}
+
+#leftcontent{
+    width: 280px;
+    height: 2436px;
+    float: left;
+    background-color: cadetblue;
+}
+
+#postbox{
+    width: 564px;
+    height: 2436px;
+    float: left;
+    background-color: aquamarine;
+}
+
+#rightcontent{
+    width: 280px;
+    height: 2436px;
+    float:right;
+    background-color: beige;
+}
+
+
+
+#footer {
+
+}
