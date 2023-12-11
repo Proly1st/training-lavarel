@@ -20,28 +20,39 @@
 #header {
     height: 66px;
     background-color: greenyellow;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #sidebar {
     width: 70px;
-    height: 460px;
+    height: 100vh;
     float: left;
     background-color: aqua;
+    position: fixed;
+    left: 0;
+    margin-top: 6px;
+    
     
 }
 
 #right {
     width: 70px;
-    height: 450px;
+    height: 100vh;
     float: right;
     background-color: blueviolet;
+    position: fixed;
+    right: 0;
+    margin-top: 6px;
 }
 
 #container {
-  
-     width: 60vw;
+    
+    width: 60vw;
     height: 2900px;
- 
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;;
     padding: 30px 0;
