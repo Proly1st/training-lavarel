@@ -14,7 +14,7 @@
 */
 
 #main {
-
+    background-color: #EDF2F6;
 }
 
 #header {
@@ -80,14 +80,19 @@
 }
 
 #nav{
+    float: left;
    margin: 0;
    display: inline-block;
 }
 
+#nav ul{
+    margin: 0;
+}
  #nav li{
     display: inline-block;
     
 }
+
 
 #nav li a{
     color: #999 ;
@@ -101,54 +106,126 @@
     border-radius: 100%;
 }
 
+#header-menu {
+    float: right;
+    position: relative;
+    line-height: 66px;
+    display: inline-block;
+    right: 240px;
+    cursor: pointer;
+    text-align: right;
+    background-color: #2A3C53;
+
+}
+
+#header-menu .sub-menu{
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+#header-menu .sub-menu ul{
+    
+}
+#header-menu .sub-menu li{
+    color: #fff;
+   
+    display: inline-block;
+}
+ .sub-menu li a{
+    text-decoration: none;
+ }
+
 #user-img{
-    float: left;
-    text-align: center;
+   float: right;
+    line-height: 66px;
+    position: relative;
+    right: 70px;
+    cursor: pointer;
+
+}
+#user-img img{
+    border-radius:24px ;
+}
+
+#header-setting{
+
+    float: right;
+    line-height: 66px;
+    font-size: 20px;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
 }
 
 
-#sidebar {
+
+
+
+
+#left1{
     width: 70px;
     height: 100vh;
+    background-color: #fff;
     float: left;
-    background-color: aqua;
+    font-size: 20px;
     position: fixed;
+    top: 66px;
     left: 0;
-    margin-top: 6px;
-    
-    
-}
-
-#sidebar li{
-      list-style: none;
-       font-size: 20px;
-    display: inline-block;
-   ;
-}
-
-#sidebar li a{
-    text-decoration: none;
- width: 68px;
- display: inline-block;
     text-align: center;
 }
 
+#left1 a{
+    width: 70px;
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+   margin: 10px 0;
+    
+    
+}
+
+
+
+#left1 a:hover{
+
+    color: #FA6342;
+    background-color: #DEDEFE;
+    border-radius: 100%;
+}
 
 #right {
     width: 70px;
     height: 100vh;
     float: right;
-    background-color: blueviolet;
+    background-color: #fff;
     position: fixed;
     right: 0;
-    margin-top: 6px;
+    top: 66px;
+}
+
+#right{
+    width: 70px;
+}
+
+#right a{
+    width: 70px;
+    display: inline-block;
+    line-height: 56px;
+    margin-left: 18px;
+}
+
+#right a img{
+    border-radius: 16px;
+   
 }
 
 #container {
     
     width: 60vw;
     height: 2900px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;;
     padding: 30px 0;
