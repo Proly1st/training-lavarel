@@ -18,12 +18,86 @@
 }
 
 #header {
+    width:100vw;
     height: 66px;
-    background-color: greenyellow;
+    background-color: #34465d;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    padding: 0 16px;
+    color: #fff;
+}
+
+#header #logo{
+    line-height: 66px;
+    width: 14%;
+    float: left;
+    
+}
+
+#header #search{
+    width: 27%;
+    line-height: 66px;
+    float: left;
+    display: block;
+    position: relative;
+}
+
+#header #search input{
+    width: 100%;
+    padding: 14px 30px;
+    font-size: 13px;
+    border: medium none;
+   height: 44px;
+   background: rgba(255,255,255,.1);
+   
+   color: #fff;
+   border-radius: 30px;
+}
+
+#header #search .search-btn{
+    position: absolute;
+    
+    right: 0;
+    top: 0;
+    padding: 0 30px;
+}
+
+#header #search .search-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#header #page-name{
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 66px;
+    float: left;
+    padding: 0 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#nav{
+    
+}
+
+ #nav li{
+    display: inline-block;
+    
+}
+
+#nav li a{
+    color: #999 ;
+    text-decoration: none;
+    line-height: 66px;
+    padding: 8px 16px;
+}
+
+#nav li a:hover{
+    background-color: #1f3d7a;
+    border-radius: 100%;
 }
 
 #sidebar {
