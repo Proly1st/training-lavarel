@@ -80,7 +80,8 @@
 }
 
 #nav{
-    
+   margin: 0;
+   display: inline-block;
 }
 
  #nav li{
@@ -100,6 +101,12 @@
     border-radius: 100%;
 }
 
+#user-img{
+    float: left;
+    text-align: center;
+}
+
+
 #sidebar {
     width: 70px;
     height: 100vh;
@@ -111,6 +118,21 @@
     
     
 }
+
+#sidebar li{
+      list-style: none;
+       font-size: 20px;
+    display: inline-block;
+   ;
+}
+
+#sidebar li a{
+    text-decoration: none;
+ width: 68px;
+ display: inline-block;
+    text-align: center;
+}
+
 
 #right {
     width: 70px;
