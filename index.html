@@ -8,7 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-K1c5c2d8jyJd8H4ZdMu1O8tqmS9BtLgDjQ5+m0z/5b4k2r6Z5SM6zqo3hd6pZwp5i2IyBPXzL/Dc0Q7KwoUj9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
 </head>
 
@@ -22,6 +22,7 @@
             <div id="search">
                <form action="#">
                 <input type="text" placeholder="Search People, Pages, Groups etc">
+                
                </form>
 
               <div class="search-btn">
@@ -36,34 +37,34 @@
             <div id="nav">
                 
                 <ul >
-                    <li><a href="#" data-toggle="tooltip" data-placement="top" title="Home">
-                        <i class="ti-home"></i>
+                    <li><a href="#" title="Home">
+                        <i class="fa-solid fa-house-chimney"></i>
                     </a></li>
 
-                    <li><a href="#"  data-toggle="tooltip" title="Friend Requests">
-                        <i class="ti-user"></i>
+                    <li><a href="#"  title="Friend Requests">
+                        <i class="fa-solid fa-user"></i>
                     </a></li>
 
-                    <li><a href="#"  data-toggle="tooltip" title="Notification">
-                        <i class="ti-bell"></i>
+                    <li><a href="#"   title="Notification">
+                        <i class="fa-solid fa-bell"></i>
                     </a></li>
 
-                    <li><a href="#" data-toggle="tooltip" title="Mesages">
-                        <i class="ti-comment"></i>
+                    <li><a href="#"  title="Mesages">
+                        <i class="fa-solid fa-comment-dots"></i>
                     </a></li>
 
-                    <li><a href="#" data-toggle="tooltip" title="Languages">
-                        <i class="ti-world"></i>
+                    <li><a href="#" title="Languages">
+                        <i class="fa-solid fa-earth-americas"></i>
                     </a></li>
 
-                    <li><a href="#" data-toggle="tooltip" title="Help">
-                        <i class="ti-help-alt"></i>
+                    <li><a href="#" title="Help">
+                        <i class="fa-solid fa-circle-question"></i>
                     </a></li>
                 </ul>
 
             </div>
            
-            <div id="header-menu"  onclick="toggleMenu()" class="ti-menu">
+            <div id="header-menu"   class="fa-solid fa-braille">
                 
              
                 <ul id="menu" class="sub-menu"  style="display: none;">
@@ -130,54 +131,54 @@
         </div>
 
       
-        <div id="left1">
-            <div>
+        <div id="left">
+            
+            <div class="left-menu" >
                 <a  href="#" class="ti-menu"> </a>
                
             </div>
             
-            <div>
+            <div  class="left-a">
                 <a href="#" data-toggle="tooltip" title="Newsfeed Page" class="ti-magnet"></a>               
             </div>
 
-            <div>
-                <a href="#" data-toggle="tooltip" data-bs-placement="right" title="forum" class="ti-layout-menu-v"></a>
-      
+            <div class="left-a">
+                <a href="#" data-toggle="tooltip" data-bs-placement="right" title="forum" class="fa-brands fa-forumbee"></a>
+               
             </div>
 
-            <div>
+            <div class="left-a">
                 <a href="# " data-toggle="tooltip" data-bs-placement="right" title="Friends" class="ti-user"></a>
                 
             </div>
 
-            <div>
-                <a href="#" data-toggle="tooltip" data-bs-placement="right" title="Favoủit page" class="ti-star"></a>
+            <div class="left-a">
+                <a href="#" data-toggle="tooltip" data-bs-placement="right" title="Favourit page" class="fa-regular fa-star"></a>
 
-               
             </div>
 
-            <div>
+            <div class="left-a">
                 <a href="#" data-toggle="tooltip" data-bs-placement="right" title="Mesages" class="ti-comment-alt"></a>
 
             </div>
 
-            <div>
+            <div class="left-a">
                 <a href="#" data-toggle="tooltip" data-bs-placement="right" title="Notification" class="ti-bell"></a>
 
             </div>
 
-            <div>
+            <div class="left-a">
                 <a href="#" data-toggle="tooltip" data-bs-placement="right" title="Account Stats" class="ti-stats-up"></a>
 
             </div>
 
-            <div>
-                <a href="#" data-toggle="tooltip" data-bs-placement="right"  title="Help" class="ti-help-alt" ></a>
-
+            <div class="left-a">
+                <a href="#" data-toggle="tooltip" data-bs-placement="right"  title="Help" class="fa-regular fa-circle-question" ></a>
+                
               
             </div>
 
-            <div>
+            <div class="left-a">
                 <a href="#" data-toggle="tooltip" data-bs-placement="right" title="Faq's"  class="ti-light-bulb"></a>
 
             </div>
@@ -238,6 +239,7 @@
             <div>
                 <a href="#">
                 <img src="./assets/img/side-friend8 (1).jpg" alt=""></a>
+                
             </div>
 
         </div>
@@ -247,9 +249,10 @@
         <div id="container">
            
             <div id="profile">
-                <div>
+                <div id="profile-img">
                       <img src="./assets/img/profile-image.jpg" alt="">
-                     
+                     <span class="fa-solid fa-camera icon-camera"></span>
+                    
                 </div>
               
                 <div id="author">
