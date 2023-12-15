@@ -477,6 +477,32 @@
     background-color: beige;
 }
 
+#bai1{
+    border: solid 1px #000;
+    width: 500px;
+    height: 100px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+#bai2{
+    border: solid 1px #000;
+    width: 500px;
+    height: 100px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+#bai3{
+    border: solid 1px #000;
+    width: 500px;
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 200px;
+}
 
 
 #footer {
