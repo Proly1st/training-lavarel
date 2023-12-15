@@ -9,6 +9,7 @@
 
     <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
     <script src="https://kit.fontawesome.com/23fe9dfecf.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="assets/bai1Console.js"></script>
     <script src="./assets/bai2Alert.js"></script>
     <script src="./assets/bai3Sum2so.js"></script>
@@ -353,7 +354,7 @@
             <div id="bai2">
                 <p>bài 2</p>
                 <input type="text" id="bai2-input" >
-                <button onclick="btnclickBai2() ">Xác nhận</button>
+                <button id="bai2-btn">Xác nhận</button>
             </div>
             
             <div id="bai3">
@@ -361,7 +362,7 @@
                 <input type= "text" id="input1" placeholder="Nhập số a" >
                 <input type= "text" id="input2" placeholder="Nhập số b" >
     
-                <button onclick="btnSum()"> Tổng 2 số </button>
+                <button id="bai3-btn"> Tổng 2 số </button>
             </div>
             
             <div id="bai4">
@@ -374,8 +375,16 @@
                     <option value="nhan">*</option>
                     <option value="chia">/</option>
                 </select>
-                <button onclick="TinhTheoSelect()">Tính toán</button>
+                <button id="bai4-btn">Tính toán</button>
             </div>
+
+            <div id="bai5">
+                <p>bài 5</p>
+                <p>mảng [6,9,1,15,22,33,2,83,67]</p>
+                <button id="bai5-btn"> sắp xếp mảng</button>
+
+            </div>
+
         </div>
         
 
