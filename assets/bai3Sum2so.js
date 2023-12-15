@@ -7,7 +7,7 @@ $(document).ready(function(){
         var input2= Number( $('#input2').val());
        
         
-        if(input1 !=0 && input2!=0){
+        if(input1 !=0 && input2!=0 && !isNaN(input1) && !isNaN(input2)){
              var sum = input1+input2;
              alert(sum);
         }
