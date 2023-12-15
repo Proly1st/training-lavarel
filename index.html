@@ -9,7 +9,10 @@
 
     <link rel="stylesheet" href="./assets/fonts/themify-icons-font/themify-icons/themify-icons.css">
     <script src="https://kit.fontawesome.com/23fe9dfecf.js" crossorigin="anonymous"></script>
-    
+    <script src="assets/bai1Console.js"></script>
+    <script src="./assets/bai2Alert.js"></script>
+    <script src="./assets/bai3Sum2so.js"></script>
+
 </head>
 
 <body>
@@ -254,6 +257,7 @@
        
 
         <!-- <div id="container">
+
            
             <div id="profile">
                 <div id="profile-img">
@@ -339,24 +343,28 @@
 
 
         </div> -->
-        <div id="bai1">
-            <p>bai1</p>
-            <input type="number" id="bai1-input" onchange="consoleFunc()" >
-
-        </div>
-        <div id="bai2">
-            <p>bai2</p>
-            <input type="number" id="bai2-input" >
-            <button onclick="btnclickBai2() ">Xác nhận</button>
+        
+        <div id="baitap">
+            <div id="bai1">
+                <p>bai1</p>
+                <input type="text" id="bai1-input">
+    
+            </div>
+            <div id="bai2">
+                <p>bai2</p>
+                <input type="number" id="bai2-input" >
+                <button onclick="btnclickBai2() ">Xác nhận</button>
+            </div>
+            
+            <div id="bai3">
+                <p>bai3</p>
+                <input type= "number" id="input1" placeholder="Nhập số a" >
+                <input type= "number" id="input2" placeholder="Nhập số b" >
+    
+                <button onclick="btnSum()"> Tổng 2 số </button>
+            </div>
         </div>
         
-        <div id="bai3">
-            <p>bai3</p>
-            <input type= "number" id="input1" placeholder="Nhập số a" >
-            <input type= "number" id="input2" placeholder="Nhập số b" >
-
-            <button onclick="btnSum()"> Tổng 2 số </button>
-        </div>
 
         <div id="footer">
 
@@ -378,27 +386,5 @@ toàn bộ phần mở rộng nên sẽ dùng cái này nếu muốn chạy tool
 
     </script>
     
-        <script>
-            // bai1 hien console khi nhap so
-            function consoleFunc() {
-            var inputValue = document.getElementById("bai1-input").value;
-            console.log(inputValue);
-            }
-
-            // bai 2 hien alert khi click vao button
-            function btnclickBai2(){
-                var inputValue = document.getElementById("bai2-input").value;
-                alert(inputValue);
-            }
-
-            // bai 3 alert tổng 2 số a b từ 2 input
-            function btnSum(){
-                var input1 = Number( document.getElementById("input1").value);
-                var input2 = Number( document.getElementById("input2").value);
-                var sum = input1+input2;
-                alert( "Tổng 2 số là: "+ sum);
-            }
-
-        </script>
-</body>
+      
 </html>

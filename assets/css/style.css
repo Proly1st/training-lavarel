@@ -477,6 +477,11 @@
     background-color: beige;
 }
 
+#baitap{
+    width: 60vw;
+    height: 600px;
+}
+
 #bai1{
     border: solid 1px #000;
     width: 500px;
@@ -484,6 +489,7 @@
     float: left;
     margin-top: 200px;
     margin-left: 200px;
+   
 }
 
 #bai2{
@@ -491,8 +497,9 @@
     width: 500px;
     height: 100px;
     float: left;
-    margin-top: 200px;
-    margin-left: 80px;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: relative;
 }
 
 #bai3{
@@ -502,6 +509,7 @@
     float: left;
     margin-top: 20px;
     margin-left: 200px;
+    position: relative;
 }
 
 
