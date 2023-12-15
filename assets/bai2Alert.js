@@ -1,4 +1,4 @@
-  // bai 2 hien alert khi click vao button
+  // Bài 2: Tạo 1 ô input và 1 button, nhập số vào, nhấn button thì alert số đó ra
   function btnclickBai2(){
     
     var inputValue = document.getElementById("bai2-input").value;

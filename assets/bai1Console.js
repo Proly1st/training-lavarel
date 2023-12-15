@@ -1,4 +1,4 @@
-  //bai1 hien console khi nhap so
+  // Bài 1: Tạo 1 ô input, nhập số vào thì console.log số đó ra
   
     document.addEventListener("DOMContentLoaded", function() {
         var inputElement = document.getElementById("bai1-input");

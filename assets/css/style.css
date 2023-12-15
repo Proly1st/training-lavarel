@@ -479,7 +479,7 @@
 
 #baitap{
     width: 60vw;
-    height: 600px;
+    height: 800px;
 }
 
 #bai1{
@@ -510,6 +510,20 @@
     margin-top: 20px;
     margin-left: 200px;
     position: relative;
+}
+
+#bai4{
+    border: solid 1px #000;
+    width: 500px;
+    height: 120px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 200px;
+    position: relative;
+}
+
+#bai4 button{
+    margin-top: 10px;
 }
 
 

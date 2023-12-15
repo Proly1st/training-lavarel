@@ -12,7 +12,7 @@
     <script src="assets/bai1Console.js"></script>
     <script src="./assets/bai2Alert.js"></script>
     <script src="./assets/bai3Sum2so.js"></script>
-
+    <script src="./assets/bai4TinhTheoSelect.js"></script>
 </head>
 
 <body>
@@ -346,22 +346,35 @@
         
         <div id="baitap">
             <div id="bai1">
-                <p>bai1</p>
+                <p>bài 1</p>
                 <input type="text" id="bai1-input">
     
             </div>
             <div id="bai2">
-                <p>bai2</p>
+                <p>bài 2</p>
                 <input type="text" id="bai2-input" >
                 <button onclick="btnclickBai2() ">Xác nhận</button>
             </div>
             
             <div id="bai3">
-                <p>bai3</p>
+                <p>bài 3</p>
                 <input type= "text" id="input1" placeholder="Nhập số a" >
-                <input type= "number" id="input2" placeholder="Nhập số b" >
+                <input type= "text" id="input2" placeholder="Nhập số b" >
     
                 <button onclick="btnSum()"> Tổng 2 số </button>
+            </div>
+            
+            <div id="bai4">
+                <p>bài 4</p>
+                <input type="text" id="b4input1" placeholder="Nhập vào số a">
+                <input type="text" id="b4input2" placeholder="Nhập vào số b">
+                <select name="chọn phép tính" id="bai4-select">
+                    <option value="cong">+</option>
+                    <option value="tru">-</option>
+                    <option value="nhan">*</option>
+                    <option value="chia">/</option>
+                </select>
+                <button onclick="TinhTheoSelect()">Tính toán</button>
             </div>
         </div>
         
