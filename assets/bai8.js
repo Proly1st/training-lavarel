@@ -56,9 +56,15 @@ $(function(){
 
 $(function(){
     $(document).on('input paste','.sLnew',function(){
-        soluong = $(this).val();
-        donGia = $(this).parents('tr').find('td:eq(3)').text();
+        soluong = parseInt( $(this).val());
         
+        if(soluong <1){
+       
+            soluong=1;
+            alert("Số lượng thấp nhất là: 1")
+            
+        }
+        donGia = $(this).parents('tr').find('td:eq(3)').text();  
         thanhtien = donGia  * soluong ;
         $(this).parents('tr').find('td:eq(5)').text(thanhtien);
        //parents('tr') tìm hàng tr chứa phần tử hiện tại. find('td:eq(5)') thì tìm kiếm ô số 5 trong hàng <tr> .
