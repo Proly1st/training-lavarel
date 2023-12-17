@@ -11,12 +11,3 @@ $(function(){
 });
 
 
-  //code k chuẩn
-//   $(document).ready(function(){
-//     $('#bai1-input').on('input paste', function(){
-//         var value = $(this).val();
-//         if($.isNumeric(value)){
-//             console.log(value);
-//         }
-//     });
-//   });

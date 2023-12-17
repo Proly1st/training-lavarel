@@ -8,14 +8,3 @@ $(function(){
 });
 
 
-// code k chuẩn
-// $(document).ready(function(){
-//     $('#bai2-btn').on('click',function(){
-
-//         var value = $('#bai2-input').val();
-//         if($.isNumeric(value)){
-//             alert(value);
-//         }
-
-//     });
-// });

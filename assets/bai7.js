@@ -1,38 +1,23 @@
-//Bài 7: Viết đồng hồ đếm ngược với sự kiện setinterva
-// bài 7 đang lỗi
-$(function(){
-    $('#b7-btn').on('click',function(){
-        let input = $('#b7InputTime').val();
+//Bài 7: Viết đồng hồ đếm ngược với sự kiện setinterval()
+
+// $(function(){
+//     $('#b7-btn').on('click',function(){
+//         let time = $('#b7InputTime').val();
+
+//         setInterval(function(){
+//             time = moment(time,'HH:mm:ss').format('time')-1000;
+//             if(time===0){
+//                stopinterval();
+//             }
+//             time = moment(time,'time').format('HH:mm;ss');
+//             $('#b7InputTime').val(time)
+//         },1000 ) ;  
+
        
-        let coutdownTime = input.split(':');
-        let gio = parseInt(coutdownTime[0]);
-        let phut =  parseInt(coutdownTime[1]);
-        let giay = parseInt(coutdownTime[2]);
+//     })
+   
+// });
 
-        let countdownInterval = setInterval(function(){
-            if (giay > 0) {
-                giay--;
-              } else {
-                if (phut > 0) {
-                  phut--;
-                  giay = 59;
-                } else {
-                  if (gio > 0) {
-                    gio--;
-                    phut = 59;
-                    giay = 59;
-                  } else {
-                    clearInterval(countdownInterval);
-                    alert('Đếm ngược đã kết thúc!');
-                  }
-                }
-            }
-
-            let formatTime= gio.toString().padStart(2,'0') +':'+
-                            phut.toString().padStart(2,'0') +':'+
-                            giay.toString().padStart(2,'0');
-             $('#countdown').text(formatTime);
-
-        },1000);
-    });
-});
+// bài 7 đang bị lỗi 
+//The Content Security Policy (CSP) prevents the evaluation of arbitrary strings as JavaScript to make it more difficult for an attacker to inject unathorized code on your site.
+// nên em bỏ làm bài 8 nha a
