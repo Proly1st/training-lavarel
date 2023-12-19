@@ -410,6 +410,8 @@
                 <button id="b7-btn"> Bắt đầu đếm ngược</button>
             </div> -->
             <div id="bai8">
+                <label for="b8Select">Chọn món:</label>
+
                 <select name="Select món ăn " id="b8Select">
                     <option value="Gà Luộc" data-soluong="1" data-donvi="con" data-gia="280000">Gà Luộc</option>
                     <option value="Mực chiên giòn" data-soluong="1"  data-donvi="100 Gram" data-gia="180000">Mực chiên giòn</option>
@@ -441,15 +443,26 @@
 
             </div>
             <div id="b8TinhTien">
+                <tbody>
+                    <tr>
+                        <th>Tổng tiền:</th>
+                        <td id="tongTien">123</td>
+                    </tr>
+
+                </tbody>
                 <div id="tongTien">Tổng tiền:</div>
-                <div id="checkVAT"> </div>
-                <input type="checkbox" id="checkbVAT"  unchecked>
-                <label for="checkbVAT">Thuế VAT</label>
-                <br>
+                <div id="checkVAT">
+                    <input type="checkbox" id="checkbVAT"  unchecked>
+                    <label for="checkbVAT">Thuế VAT</label>
+                    <br>    
+                </div>
+                
                 <label for="inputGiamGia">Số tiền giảm giá:</label> 
                 <input type="number" id="inputGiamGia" value="0">
                 
                 <div id="TongTTien">Tổng thành tiền: </div>
+
+
              </div> 
 
         </div>
